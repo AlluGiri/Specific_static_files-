@@ -1,0 +1,15 @@
+style
+{
+    color:black;
+    padding:0px;
+	margin-left:0px;
+}
+body
+{
+	background-color:orange;
+	/* margin-left:400px; */
+}
+#body img
+{
+	margin-left:450px;
+}

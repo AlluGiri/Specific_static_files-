@@ -1,0 +1,68 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="{% static 'css/style.css' %}">
+</head>
+<body>
+    <center>
+    <h1> MR.Cool 😎 </h1>
+    <img src="{% static 'images/msd.jpg' %}" alt="No Image" height="400px" width="400px">
+    </center>
+
+    <h1>Student Registration Form</h1>
+	<h2>Fill in this form to register</h2>
+	<div id="reg-form">
+		<form>
+			<table>
+				<tr>
+					<td><label>First Name</label></td>
+					<td><input type="text" placeholder="Enter your First Name"></td>
+				</tr>
+				<tr>
+					<td><label>Last Name</label></td>
+					<td><input type="text" placeholder="Enter your Last Name"></td>
+				</tr>
+				<tr>
+					<td><label>E-mail</label></td>
+					<td><input type="text" placeholder="Enter your E-mail"></td>
+				</tr>
+				<tr>
+					<td><label>Date of Birth</label></td>
+					<td><input type="Date" placeholder="YYYY-MM-DD"></td>
+				</tr>
+				<tr>
+					<td><label>Set Username</label></td>
+					<td><input type="text" placeholder="Set Username"></td>
+				</tr>
+				<tr>
+					<td><label>Set Password</label></td>
+					<td><input type="Password" placeholder="Set Password"></td>
+				</tr>
+				<tr>
+					<td><label>Gender</label></td>
+					<td><input type="radio" name="a1">Male</input>
+					    <input type="radio" name="a1">Female</input>
+					    <input type="radio" name="a1">Other</input></td>
+				</tr>
+				<tr>
+					<td><label>Select Course:</label>
+					<select>
+						<option>course</option>
+						<option>Python</option>
+						<option>Java</option>
+						<option>SQL</option></td></select>
+				</tr>
+				<tr>
+					<td align="left"><label>
+						<input type="Submit" value="Register">
+						</td>
+				</tr>
+			</table>
+		</form>
+	</div>
+</body>
+</html>
